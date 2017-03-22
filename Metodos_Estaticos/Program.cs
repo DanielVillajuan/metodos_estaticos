@@ -10,8 +10,12 @@ namespace Metodos_Estaticos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hola mundo");
+            int mayor;
+    
+            mayor=Comparadora.RetornarMayor(10 , 5);
+            Console.WriteLine("el mayor es:" + mayor);
             Console.ReadLine();
+
         }
     }
 }
