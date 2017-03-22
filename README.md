@@ -1,2 +1,4 @@
 # metodos_estaticos
-Laboratorio 2
+<h4>Laboratorio 2</h4>
+
+Ejercicios de Clases
