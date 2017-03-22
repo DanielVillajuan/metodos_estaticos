@@ -16,10 +16,12 @@ namespace Metodos_Estaticos
             mayor=Comparadora.RetornarMayor(10 , 5);
             Console.WriteLine("el mayor es:" + mayor);
             Console.ReadLine();
-
+            Sello.Color = ConsoleColor.Blue;
             Sello.Mensaje = "Nuevo Mensaje";
             dato=Sello.Imprimir();
+            Sello.ImprimirColor();
             Console.WriteLine(dato);
+           
 
         }
     }
