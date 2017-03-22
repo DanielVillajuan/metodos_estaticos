@@ -11,6 +11,7 @@ namespace Metodos_Estaticos
         static void Main(string[] args)
         {
             Console.WriteLine("hola mundo");
+            Console.ReadLine();
         }
     }
 }
